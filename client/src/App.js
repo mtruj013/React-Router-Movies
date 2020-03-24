@@ -22,7 +22,7 @@ const App = () => {
         <MovieList/>
       </Route>
 
-      <Route path='/movies/:movieID'>
+      <Route path='/movies/:id'>
         <Movie/>
       </Route>
     </div>
